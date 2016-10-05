@@ -1,10 +1,12 @@
 function min(a, b) {
 	if (a < b) {
-		retern (a); 
+		return (a);
 }
 	else {
-		retern (b); 
-} 
+		return (b);
+}
+}
+console.log(min(0, 10));
+console.log(min(0, -10));
+console.log('/n' + '/n');
 
-consol.log(min(0, 10));
-consol.log(min(0, -10));
