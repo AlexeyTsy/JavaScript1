@@ -11,14 +11,15 @@ console.log(min(0, -10));
 
 var char = prompt("Введите букву");
 var string = prompt("Введите строку");
-function countBs(char, string){
-	var count = 0;
-	for (var i=0; i < string.length-1; i++) {
-		if (char === str.charAt(i)){
+var count = 0;
+function countBs(a, b){
+	for (var i=0; i < b.length - 1; i++) {
+		if (a == b.charAt(i)){
 		count++;
 		}
 	}
 }
+countBs(char, string);
 console.log(count);
 
 
