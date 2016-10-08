@@ -16,3 +16,6 @@ function transform(a, b, c) {
 }
 
 transform(15, 15, 15);
+transform(15, 5, 15);
+transform(15, 10, 15);
+transform(20, 15, 15);
