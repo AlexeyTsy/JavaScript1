@@ -2,6 +2,8 @@
  * Created by AlexKate on 10/8/2016.
  */
 
+/////////////Задание 1///////////////////////
+
 function transform(a, b, c) {
     if ((a < 0) && (a > 255)) {
        console.log("Неверно введеное число!");
