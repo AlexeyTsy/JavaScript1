@@ -37,8 +37,8 @@
       <file leaf-file-name="scriptdz5.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scriptdz5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25925925">
-              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.37037036">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -191,7 +191,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475909410436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Задание 5">
+      <created>1475925507992</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475925507992</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -231,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="test Git" />
+    <MESSAGE value="Задание 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -286,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scriptdz5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25925925">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.37037036">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
