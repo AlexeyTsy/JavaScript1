@@ -5,19 +5,26 @@
 /////////////Задание 1///////////////////////
 
 function transform(a, b, c) {
-    if ((a < 0) && (a > 255)) {
-       console.log("Неверно введеное число!");
+    function dec(i) {
+        if (i > 255 || i < 0) {
+            return ("Не верный дипазон!");
+        } else if (isNaN(i)) {
+            return ("Введите число!");
+        } else if (i > 15) {
+            return (i.toString(16));
+        } else {
+            return ("0" + i.toString(16));
+        }
     }
-    if ((b < 0) && (b > 255)) {
-        console.log("Неверно введеное число!");
-    }
-    if ((c < 0) && (c > 255)) {
-        console.log("Неверно введеное число!");
-    }
-    console.log("#" + a.toString(16) + b.toString(16) + c.toString(16));
+var result = dec(a) + dec(b) + dec(c);
+return ("#" + result);
 }
 
-transform(15, 15, 15);
-transform(15, 5, 15);
-transform(15, 10, 15);
-transform(20, 15, 15);
+console.log(transform(15, 15, 15));
+console.log(transform(12, 13, 15));
+console.log(transform(1, 1, 1));
+console.log(transform(4, 4, 4));
+console.log(transform(125, 136, 200));
+
+
+/////////////Задание 2///////////////////////
