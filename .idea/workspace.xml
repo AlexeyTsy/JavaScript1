@@ -35,8 +35,8 @@
       <file leaf-file-name="scriptdz5.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scriptdz5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37037036">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.037037037">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -195,7 +195,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475925507992</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Задание 5">
+      <created>1475925711570</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1475925711570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -291,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scriptdz5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37037036">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.037037037">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
