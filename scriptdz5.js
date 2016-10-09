@@ -9,7 +9,7 @@ function transform(a, b, c) {
         if (i > 255 || i < 0) {
             return ("Не верный дипазон!");
         } else if (isNaN(i)) {
-            return ("Введите число!");
+            return ("Введено не числовое значение");
         } else if (i > 15) {
             return (i.toString(16));
         } else {
@@ -28,3 +28,27 @@ console.log(transform(125, 136, 200));
 
 
 /////////////Задание 2///////////////////////
+var obj = {sotni: "", desjatki: "", edinici: ""};
+var number = prompt("Введи число от  0 до 999");
+if ((number > 999) || (number < 0)) {
+    console.log("Не верный диапазон!");
+}   else if (isNaN(number)) {
+    console.log("Введено не число!");
+}   else {
+    function newbee(number) {
+        while (number >=0) {
+            var s = Math.floor(number / 100);
+            var d = Math.floor((number - s * 100)/10);
+            var e = number - s*100 - d*10;
+            number = number - s*100 - d*10 - (e+1);
+        }
+        obj.sotni = s;
+        obj.desjatki = d;
+        obj.edinici = e;
+    }
+    newbee(number);
+}
+
+console.log(obj);
+
+
