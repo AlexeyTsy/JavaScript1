@@ -28,6 +28,7 @@ console.log(transform(125, 136, 200));
 
 
 /////////////Задание 2///////////////////////
+
 var obj = {sotni: "", desjatki: "", edinici: ""};
 var number = prompt("Введи число от  0 до 999");
 if ((number > 999) || (number < 0)) {
@@ -51,4 +52,18 @@ if ((number > 999) || (number < 0)) {
 
 console.log(obj);
 
+//////////////Задание 3///////////////////////
 
+function objectToQueryString(some){
+    var result = '';
+    for (var key in some){
+        result += key.toString() + "=" + some[key].toString() + "&";
+    }
+    result = result.substring(0, result.length - 1);
+    return result;
+}
+
+console.log(objectToQueryString({}));
+console.log(objectToQueryString({user: 'Dmitry'}));
+console.log(objectToQueryString({user: 'Dmitry', password: 'pass'}));
+console.log(objectToQueryString({user: 'Dmitry', password: 'pass', id:1}));
