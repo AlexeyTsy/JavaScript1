@@ -47,6 +47,32 @@ console.log('Задание 1');
 console.log(arrayToList([10, 20]));
 console.log(listToArray(arrayToList([10, 20, 30])));
 console.log(prepend(10, prepend(20, null)));
-console.log(nth(arrayToList([10, 20 , 30]), 2));
+console.log(nth(arrayToList([10, 20 , 30]), 0));
 
 
+////////////Задание 2////////////////
+
+function reverseArray(array) {
+    var output = [];
+    for (var i = array.length - 1; i>=0; i--) {
+        output.push(array[i]);
+    }
+    return output;
+}
+
+function reverseArrayInPlace(array) {
+    var first = null;
+    var last = null;
+    var length = array.length;
+    for (first = 0; first < length/2; first++) {
+        last = length - 1 - first;
+        [array[first], array[last]] = [array[last], array[first]];
+    }
+    return array;
+}
+
+
+console.log('-----------Задание 2--------------');
+console.log(reverseArray([2, 4, 5, 6]));
+console.log(reverseArrayInPlace([10, 20, 30]));
+console.log(reverseArrayInPlace(["corrib", "oil", "company"]));
